@@ -11,7 +11,7 @@
       <div class="row">
         <div class="column">
           <label>Name</label><br />
-          <input type="text" v-model="name" required />
+          <input style="width: 80%" type="text" v-model="name" required />
         </div>
         <div class="column">
           <label>Phone Number</label><br />
@@ -51,7 +51,7 @@
           <div class="row">
             <div class="column" style="text-align: left">
               <label>Name</label>
-              <input type="text" v-model="info.name" />
+              <input style="width: 80%" type="text" v-model="info.name" />
             </div>
             <div class="column" style="text-align: left">
               <label>Phone Number</label>
